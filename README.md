@@ -1,0 +1,1 @@
+# Responsive Login and Registration Page Template

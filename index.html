@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login-Register Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="back-image">
+      <img src="./img/bk.png" alt="background image" />
+    </div>
+    <section class="left">
+      <section class="side login">
+        <p class="title">Not an account?</p>
+        <p class="message">What are you waiting? Join us now!</p>
+        <button>Register</button>
+        <img src="./img/reg_back.svg" alt="" />
+      </section>
+
+      <section class="main register">
+        <div class="container">
+          <p class="title">Register</p>
+          <form>
+            <div class="form-control">
+              <input type="text" placeholder="Username" />
+              <i class="fas fa-user"></i>
+            </div>
+            <div class="form-control">
+              <input type="password" placeholder="Password" />
+              <i class="fas fa-unlock"></i>
+            </div>
+            <div class="form-control">
+              <input type="password" placeholder="Confirm password" />
+              <i class="fas fa-lock"></i>
+            </div>
+
+            <button class="submit">Register</button>
+          </form>
+        </div>
+      </section>
+    </section>
+
+    <section class="right">
+      <section class="side register">
+        <p class="title">Already registered?</p>
+        <p class="message">What are you waiting? Login now!</p>
+        <button>Login</button>
+        <img src="./img/log_back.svg" alt="" />
+      </section>
+
+      <section class="main login">
+        <div class="container">
+          <p class="title">Login</p>
+          <form>
+            <div class="form-control">
+              <input type="text" placeholder="Username" />
+              <i class="fas fa-user"></i>
+            </div>
+            <div class="form-control">
+              <input type="password" placeholder="Password" />
+              <i class="fas fa-unlock"></i>
+            </div>
+
+            <button class="submit">Login</button>
+          </form>
+        </div>
+      </section>
+    </section>
+  </body>
+</html>
